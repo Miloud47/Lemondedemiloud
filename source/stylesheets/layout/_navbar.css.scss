@@ -1,10 +1,10 @@
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
-$navbar-color: black;
-$navbar-hover-color: $yellow;
-$navbar-font-family: $header-font;
-$navbar-bg: white;
+$navbar-color: $mbase;
+$navbar-hover-color: $mbase;
+$navbar-font-family: $base-font;
+$navbar-bg: transparent;
 
 /* -------------------------------------
  * Box model
@@ -37,6 +37,7 @@ $navbar-profile-border-width: 2px;
 .navbar-wagon {
   background: $navbar-bg;
   font-family: $navbar-font-family;
+  font-style: normal;
   border: none;
   font-weight: 400;
   padding-left: $navbar-horizontal-padding;
@@ -50,6 +51,10 @@ $navbar-profile-border-width: 2px;
   .navbar-nav > li > a:focus,
   .navbar-nav > .open > a:focus {
     outline: none;
+    font-family: $navbar-font-family;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     color: $navbar-color;
     line-height: $navbar-height;
     padding-top: $navbar-vertical-padding;
@@ -63,19 +68,22 @@ $navbar-profile-border-width: 2px;
 
   .navbar-nav > li > a:hover,
   .navbar-nav > .open > a:hover {
-    color: $navbar-hover-color;
-    background-color: transparent;
+    color: $mbase;
+    text-decoration: none;
   }
 
   .navbar-brand,
   .navbar-brand:hover {
+    font-weight: 700;
     outline: none;
     color: $navbar-color;
-    padding-top: $navbar-vertical-padding;
+    padding-top: 20px;
     padding-bottom: $navbar-vertical-padding;
   }
 
   .navbar-nav > li > a.btn {
+    color: black;
+    font-weight: normal;
     line-height: $navbar-btn-height;
     padding: 0 $navbar-btn-horizontal-padding;
     color: $navbar-btn-color;
@@ -143,7 +151,7 @@ $navbar-profile-border-width: 2px;
      {
       display: block;
       color: $navbar-color;
-      padding-top: 0;
+      padding-top: 15px;
       padding-bottom: 0;
     }
   }

@@ -4,30 +4,11 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 .padded {
-  padding-top: 8em;
-  padding-bottom: 8em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
-.bg-red {
-  background: $red;
-  color: white;
-}
-.bg-blue {
-  background: $blue;
-  color: white;
-}
-.bg-yellow {
-  background: $yellow;
-  color: white;
-}
-.bg-orange {
-  background: $orange;
-  color: white;
-}
-.bg-green {
-  background: $green;
-  color: white;
-}
-.bg-purple {
-  background: $purple;
-  color: white;
+
+.bold{
+	display: inline-block;
+	font-weight: 500;
 }

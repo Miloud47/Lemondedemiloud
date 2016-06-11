@@ -2,9 +2,13 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
-$base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Montserrat", "sans-serif";
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+$nav-font: 'Montserrat', 'sans-serif';
+$base-font:'Open Sans', 'sans-serif';
+$header-font: "Dosis", "sans-serif";
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -23,13 +27,11 @@ $base-height: 1.4;
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
-// Scheme
-$red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
-$orange: #E67E22;
-$green: #32B796;
-$purple: #6452BD;
+$myellow: #fff794;
+$mblue: #b3f4ff;
+$mgreen: #baffb3;
+$mpink: #ffcfd3;
+$mbase: #505963;
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222

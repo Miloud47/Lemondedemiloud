@@ -1,0 +1,17 @@
+body{
+	color: $mbase;
+	font-family: $base-font;
+	font-style: normal;
+	font-weight: 300;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+h1{
+	padding-top: 4px;
+	font-family: $base-font;
+	font-size: 40px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
